@@ -103,6 +103,9 @@ span {
 	z-index: 5;
 	color: deepskyblue;
 }
+P{
+font-size:100px;
+}
 @media (max-width:767px) {
 	span {
 		right: 15px;
