@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio.html</title>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <div id="leftMenu">
+        <a href="javscript:void(0)" class="btn-area" onclick="closeBtn()">×</a>
+        <div class="mainNav">
+            <a href="#">home</a>
+            <a href="#about">about</a>
+           
+            <a href="#contact">contact</a>
+
+        </div>
+    </div>
+    <span onclick="openBtn()" onclick="closeBtn()`">☰ Menu</span>
+    
+    <div class="content">
+        <div class="box">
+            <h2>...Devesh Pandey...</h2>
+        <p> </p>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="box">
+            <h2>About me</h2>
+            <p style="color:white ;"> Hello....My name is Devesh Pandey... I am developer...If you have any problem about coding..then you can contact me <div class=""></div> 
+
+            </p>
+        </div>
+ 
+    </div>
+    <div class="contact" id="contact">
+        <div class="box">
+            <h2>Contact Me..</h2>
+     ........<a href = "mailto: abc@example.com">pdevesh402@gmail.com</a>
+     <p style="color:lightseagreen ;">My insta id- _deadboi_777</p>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        function openBtn()
+        {
+            document.getElementById("leftMenu").style.width = "250px";
+        }
+
+        function closeBtn()
+        {
+            document.getElementById("leftMenu").style.width = "0";
+        }
+    </script>
+</body>
+</html>
