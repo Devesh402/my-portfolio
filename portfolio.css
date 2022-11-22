@@ -109,10 +109,10 @@ span {
 	span {
 		right: 15px;
 		top: 20px;
-		font-size: 29px;
+		font-size: 25px;
 	}
 	.content h2, .about h2, .portfolio h2, .services h2, .blog h2, .contact h2 {
-		font-size: 60px;
+		font-size: 36px;
 	}
 	.mainNav {
 		margin-top: 20px;
